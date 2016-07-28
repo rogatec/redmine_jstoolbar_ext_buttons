@@ -4,6 +4,10 @@
 
 The Redmine jsToolbar Buttons Extension adds some additional buttons to the [Redmine](http://www.redmine.org/) wiki and text editor toolbar.  
 
+## INFO
+
+Projects forked from https://github.com/tleish - original code can be found by following the forked message in the upper left corner
+
 ## Requirements
 
 This plugin requires the [Redmine jsToolbar Ext plugin](https://github.com/tleish/redmine_jstoolbar_ext) to also be installed.
@@ -47,7 +51,7 @@ For other wiki function examples, look at the source code for the jsToolbar in t
 ```
 $ cd redmine/plugins
 $ git clone https://github.com/tleish/redmine_jstoolbar_ext
-$ git clone https://github.com/tleish/redmine_jstoolbar_ext_buttons
+$ git clone https://github.com/rogatec/redmine_jstoolbar_ext_buttons
 ```
 
 restart Redmine
@@ -55,4 +59,4 @@ restart Redmine
 ## See Also:
 
 * [Redmine jsToolbar Images Extension](https://github.com/tleish/redmine_jstoolbar_ext_images)
-* [Redmine jsToolbar CodeRay Extension](https://github.com/tleish/redmine_jstoolbar_ext_coderay)
+* [Redmine jsToolbar CodeRay Extension](https://github.com/rogatec/redmine_jstoolbar_ext_coderay)
