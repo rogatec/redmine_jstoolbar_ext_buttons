@@ -15,19 +15,19 @@
       }}
     },
 
-    // Ruby
+    // PHP
     {
-      title: 'Ruby', after: 'pre',
+      title: 'PHP', after: 'pre',
       fn: { wiki: function () {
-        this.encloseLineSelection('<pre><code class="ruby">\n', '\n</code></pre>')
+        this.encloseLineSelection('~~~ php\n', '\n~~~\n')
       }}
     },
 
     // Javascript
     {
-      title: 'Javascript', after: 'ruby',
+      title: 'Javascript', after: 'php',
       fn: { wiki: function () {
-        this.encloseLineSelection('<pre><code class="javascript">\n', '\n</code></pre>')
+        this.encloseLineSelection('~~~ javascript\n', '\n~~~\n')
       } }
     },
 
